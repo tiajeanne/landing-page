@@ -90,10 +90,13 @@ body {
 }
 .subtext {
     margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .info-content img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
