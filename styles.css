@@ -2,7 +2,13 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+
+}
+
 .header {
     background-color: #1F2937;
     color:#fff;
@@ -21,14 +27,20 @@
     list-style: none;
     display: flex;
     gap: 8px;
-    padding-right: 200px;
+
 }
 .hero {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
     padding: 16px;
     gap: 32px;
     padding-bottom: 60px;
+}
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .hero-main-text {
     font-size: 48px;
@@ -36,13 +48,14 @@
     color:#f9faf8;
     margin-bottom: 8px;
     padding-left: 60px;
+
 }
 .hero-second-text {
     font-size: 18px;
     color: #E5E7EB;
     overflow-wrap: break-all;
     padding-left: 60px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .button-one {
@@ -54,8 +67,9 @@
     margin-left: 60px;
 }
 .main-image {
-padding-left: 200px;
-padding-right: 16px;
+ width: 50%;
+ padding-right: px;
+
 }
 .info-header {
     font-size: 36px;
@@ -74,6 +88,17 @@ padding-right: 16px;
     justify-content: space-between;
     padding-left: 16px;
 }
+.subtext {
+    margin-top: 3px;
+}
+.info-content img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
 .action {
     background-color:#3882f6;
     color: #fff;
@@ -123,4 +148,6 @@ padding-right: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
